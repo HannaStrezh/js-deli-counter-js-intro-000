@@ -24,7 +24,7 @@
     // we created var array because create an array, push the things we want, so we can join it later so we can make a String
     
     for (let i=1; i<=katzDeliLine.length; i++) {
-      array.push(`${i}. ${katzDeliLine[i-1]},`);
+      array.push(`${i}. ${katzDeliLine[i-1]}`);
     }
   //<= beacause we want keep going through the line until we hit the length(the end of the line) and we want to start it at 1 and make it more realistic to the pisition in line
     if(katzDeliLine.length===0){
