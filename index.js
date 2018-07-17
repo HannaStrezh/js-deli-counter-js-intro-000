@@ -31,6 +31,6 @@
       return "The line is currently empty."
     }
     else{
-     return `The line is currently: ${array.join(" ")}`
+     return `The line is currently: ${array.join(", ")}`
     }
   }
